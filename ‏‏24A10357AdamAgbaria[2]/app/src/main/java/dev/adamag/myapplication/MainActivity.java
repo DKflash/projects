@@ -321,9 +321,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         // Display coins
         int cellWidthCoin = (int) (cellWidth * 0.8);
         int cellHeightCoin = (int) (cellHeight * 0.8);
-        for (Coin coin : gameManager.getCoins()) { // Assuming gameManager.getCoins() is implemented
+        for (Coin coin : gameManager.getCoins()) { 
             ImageView coinView = new ImageView(this);
-            coinView.setImageResource(R.drawable.phoenix_1292958); // Make sure you have a coin drawable
+            coinView.setImageResource(R.drawable.phoenix_1292958);
             FrameLayout.LayoutParams coinParams = new FrameLayout.LayoutParams(cellWidthCoin, cellHeightCoin);
             int coinTopMargin = coin.getRow() * cellHeight;
             int coinLeftMargin = coin.getColumn() * cellWidth;
@@ -343,7 +343,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     gameManager.updateGame();
                     updateUI();
                     displayObstacles();
-                    gameManager.getPlayer().addScore(5); // Assuming GameManager has a method to add score
+                    gameManager.getPlayer().addScore(5); 
                     handler.postDelayed(this, GAME_UPDATE_DELAY);
                 } else {
                     runOnUiThread(() -> {

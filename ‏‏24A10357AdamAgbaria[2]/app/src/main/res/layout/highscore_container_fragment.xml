@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:listitem="@layout/highscore_index"
+    android:id="@+id/scoresRecycView"
+    android:layout_height="match_parent">
+</androidx.recyclerview.widget.RecyclerView>

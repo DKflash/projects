@@ -19,7 +19,7 @@ Top Activity: Displays the top performing strategies based on user data and shar
 
 Technical Components:
 
-HomePageActivity-
+
 The central hub of the application, presenting the most recent chart data or general information if no data is available. It includes navigation to other parts of the app and the option to sign out.
 
 FileHandler-
@@ -34,4 +34,6 @@ Defines and manages various trading strategies. This class is vital for users wh
 Libraries and Tools:
 Firebase: Used for authentication, database storage, and real-time data handling.
 MPAndroidChart: A powerful library for rendering complex charts within Android applications, used extensively for displaying trading analytics.
+[Backtesting App.pptx](https://github.com/DKflash/projects/files/15051905/Backtesting.App.pptx)
+[מצגת ישנה (לא באמת מצגת).pdf](https://github.com/DKflash/projects/files/15051911/default.pdf)
 

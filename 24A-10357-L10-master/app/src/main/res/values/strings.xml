@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Backtesting</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="api_key" translatable="false">${properties["GoogleMapsApiKey"]}</string>
+    <string-array name="strategy_choices">
+        <item>Buying Pressure</item>
+        <item>OverBought-Sold</item>
+    </string-array>
+
+</resources>

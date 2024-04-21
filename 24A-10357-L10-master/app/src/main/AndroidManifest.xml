@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_start"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_start"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.My24A10357L10"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePageActivity">
+            <!-- Intent filter if this activity can be a launcher or responds to specific intents -->
+        </activity>
+        <activity android:name=".FavoriteActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".TopActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".StrategyPickActivity" />
+        <activity android:name=".ResultActivity" />
+
+
+        <meta-data
+            android:name = "com.google.android.geo.API_KEY"
+            android:value="${GOOGLE_MAPS_API_KEY}"
+            />
+
+    </application>
+
+</manifest>

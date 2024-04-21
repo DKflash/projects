@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1028003001803",
+    "project_id": "afeka-crypto",
+    "storage_bucket": "afeka-crypto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028003001803:android:94b30a188603f52ac8b24e",
+        "android_client_info": {
+          "package_name": "dev.tomco.my24a_10357_l10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZWADOvaPtcmFqVGIUh3Ve77pHcUInRo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

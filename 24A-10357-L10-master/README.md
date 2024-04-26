@@ -37,3 +37,7 @@ MPAndroidChart: A powerful library for rendering complex charts within Android a
 [Backtesting App.pptx](https://github.com/DKflash/projects/files/15051905/Backtesting.App.pptx)
 [מצגת ישנה (לא באמת מצגת).pdf](https://github.com/DKflash/projects/files/15051911/default.pdf)
 
+
+
+https://github.com/DKflash/projects/assets/100863436/19eb67ae-56ae-4b07-a334-701edd8338d9
+
